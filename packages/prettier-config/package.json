@@ -1,0 +1,32 @@
+{
+  "name": "@circlelabs/prettier-config",
+  "version": "0.1.0",
+  "license": "ISC",
+  "main": "./dist/prettier.config.js",
+  "module": "./dist/prettier.config.mjs",
+  "exports": {
+    "require": "./dist/prettier.config.js",
+    "import": "./dist/prettier.config.mjs"
+  },
+  "scripts": {
+    "build": "tsup-node",
+    "type-check": "tsc"
+  },
+  "author": {
+    "name": "Jonathan Heneis",
+    "email": "jonathan.heneis@circlelabs.dev"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "circlelabs-config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "lerna run build",
+    "format": "prettier . -w"
+  },
+  "author": {
+    "name": "Jonathan Heneis",
+    "email": "jonathan.heneis@circlelabs.dev"
+  },
+  "devDependencies": {
+    "@circlelabs/prettier-config": "workspace:./packages/prettier-config",
+    "@types/node": "^20.12.2",
+    "lerna": "^8.1.2",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
