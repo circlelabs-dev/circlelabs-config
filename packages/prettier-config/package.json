@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "tsup-node",
-    "type-check": "tsc"
+    "lint": "pnpm run lint:tsc",
+    "lint:tsc": "tsc --noEmit"
   },
   "author": {
     "name": "Jonathan Heneis",
