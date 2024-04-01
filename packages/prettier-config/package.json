@@ -1,6 +1,6 @@
 {
   "name": "@circlelabs/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "ISC",
   "main": "./dist/prettier.config.cjs",
   "module": "./dist/prettier.config.js",
