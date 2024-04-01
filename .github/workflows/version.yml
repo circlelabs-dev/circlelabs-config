@@ -21,11 +21,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
         shell: bash
-      - name: Check dist files
-        run: ls packages/prettier-config/dist -a
-        shell: bash
       - name: Bump version of packages
-        run: npx lerna version ${{ inputs.version-bump }} --yes
+        run: pnpx lerna version ${{ inputs.version-bump }} --yes
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

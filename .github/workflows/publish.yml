@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/install-dependencies
       - name: Publish packages from git
-        run: npx lerna publish from-git -y
+        run: pnpx lerna publish from-git -y
         shell: bash
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
