@@ -4,6 +4,7 @@
   "license": "ISC",
   "main": "dist/prettier.config.js",
   "module": "dist/prettier.config.mjs",
+  "type": "module",
   "exports": {
     "require": "./dist/prettier.config.js",
     "import": "./dist/prettier.config.mjs"
