@@ -14,3 +14,4 @@ runs:
       with:
         cache: pnpm
         node-version-file: .nvmrc
+        registry-url: https://registry.npmjs.org

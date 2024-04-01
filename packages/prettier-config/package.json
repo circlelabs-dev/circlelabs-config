@@ -9,6 +9,7 @@
     "import": "./dist/prettier.config.mjs"
   },
   "scripts": {
+    "prepack": "pnpm run build",
     "build": "tsup-node",
     "lint": "pnpm run lint:tsc",
     "lint:tsc": "tsc --noEmit"
