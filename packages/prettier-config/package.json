@@ -28,6 +28,10 @@
   "peerDependencies": {
     "prettier": "^3.2.5"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "files": [
     "dist",
     "package.json"
