@@ -1,6 +1,7 @@
 {
-  "include": ["prettier.config.ts"],
+  "include": ["prettier.config.ts", "prettier.config.macro.ts"],
   "compilerOptions": {
+    "baseUrl": ".",
     /* Visit https://aka.ms/tsconfig to read more about this file */
     "target": "ES2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "module": "CommonJS" /* Specify what module code is generated. */,
