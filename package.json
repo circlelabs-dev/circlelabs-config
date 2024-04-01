@@ -7,7 +7,8 @@
     "postinstall": "lerna run build --scope=@circlelabs/prettier-config",
     "build": "lerna run build",
     "lint": "lerna run lint",
-    "format": "prettier . -w"
+    "format": "prettier . -w",
+    "npm-check-update": "pnpx npm-check-updates --deep"
   },
   "author": {
     "name": "Jonathan Heneis",
