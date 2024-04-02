@@ -1,8 +1,8 @@
 import baseConfig from '@circlelabs/prettier-config'
 import deepmerge from 'deepmerge'
-import { Options } from 'prettier'
+import { Config } from 'prettier'
 
-const config: Options = {
+const config: Config = {
   plugins: ['prettier-plugin-astro'],
 }
 

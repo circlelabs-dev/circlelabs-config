@@ -1,7 +1,7 @@
 import type { PluginConfig } from '@trivago/prettier-plugin-sort-imports'
-import type { Options } from 'prettier'
+import type { Config } from 'prettier'
 
-type FinalOptions = Options & PluginConfig
+type FinalConfig = Config & PluginConfig
 
 export default {
   plugins: ['@trivago/prettier-plugin-sort-imports'],
@@ -19,4 +19,4 @@ export default {
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
-} satisfies FinalOptions
+} satisfies FinalConfig
