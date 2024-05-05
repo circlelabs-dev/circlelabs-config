@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.1 (2024-05-05)
+
+### Bug Fixes
+
+- **prettier-config:** resolve import instead of string ref ([0bee57f](https://github.com/circlelabs-dev/circlelabs-config/commit/0bee57fb66bf111d8f71229185217314f80e86a5))
+
 ## 1.1.0 (2024-04-01)
 
 ### Features
