@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.2 (2024-05-05)
+
+### Bug Fixes
+
+- **prettier-config-astro:** remove dead code ([55ff6b9](https://github.com/circlelabs-dev/circlelabs-config/commit/55ff6b91b9f4d1632c834b57b6ff4609b6bc0094))
+
 ## 1.1.1 (2024-05-05)
 
 ### Bug Fixes
