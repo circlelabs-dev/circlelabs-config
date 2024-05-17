@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "@circlelabs/prettier-config": "workspace:./packages/prettier-config",
-    "@types/node": "^20.12.2",
-    "conventional-changelog-conventionalcommits": "^7.0.2",
-    "lerna": "^8.1.2",
+    "@types/node": "^20.12.12",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "lerna": "^8.1.3",
     "prettier": "^3.2.5",
     "tsup": "^8.0.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   }
 }
