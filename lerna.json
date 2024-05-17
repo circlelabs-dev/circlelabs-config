@@ -6,7 +6,6 @@
   "command": {
     "version": {
       "conventionalCommits": true,
-      "changelogPreset": "conventionalcommits",
       "forcePublish": true
     }
   }
