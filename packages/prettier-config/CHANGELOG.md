@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2024-12-04)
+
+**Note:** Version bump only for package @circlelabs/prettier-config
+
 # 1.3.0 (2024-10-20)
 
 **Note:** Version bump only for package @circlelabs/prettier-config
