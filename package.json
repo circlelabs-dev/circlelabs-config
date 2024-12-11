@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "@circlelabs/prettier-config": "workspace:./packages/prettier-config",
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "lerna": "^8.1.9",
     "prettier": "^3.4.2",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   },
-  "packageManager": "pnpm@9.14.4"
+  "packageManager": "pnpm@9.15.0"
 }
