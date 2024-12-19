@@ -1,40 +1,40 @@
 {
-  "name": "@circlelabs/prettier-config",
-  "version": "2.0.0",
-  "license": "ISC",
-  "main": "./dist/prettier.config.cjs",
-  "module": "./dist/prettier.config.js",
-  "type": "module",
-  "exports": {
-    "require": "./dist/prettier.config.cjs",
-    "import": "./dist/prettier.config.js"
-  },
-  "types": "./dist/prettier.config.d.ts",
-  "scripts": {
-    "prepack": "pnpm run build",
-    "build": "tsup-node",
-    "lint": "pnpm run lint:tsc",
-    "lint:tsc": "tsc --noEmit"
-  },
-  "author": {
-    "name": "Jonathan Heneis",
-    "email": "jonathan.heneis@circlelabs.dev"
-  },
-  "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^5.2.0"
-  },
-  "devDependencies": {
-    "prettier": "^3.4.2"
-  },
-  "peerDependencies": {
-    "prettier": "^3.2.5"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
-  "files": [
-    "dist",
-    "package.json"
-  ]
+    "name": "@circlelabs/prettier-config",
+    "version": "2.1.0",
+    "license": "ISC",
+    "main": "./dist/prettier.config.cjs",
+    "module": "./dist/prettier.config.js",
+    "type": "module",
+    "exports": {
+        "require": "./dist/prettier.config.cjs",
+        "import": "./dist/prettier.config.js"
+    },
+    "types": "./dist/prettier.config.d.ts",
+    "scripts": {
+        "prepack": "pnpm run build",
+        "build": "tsup-node",
+        "lint": "pnpm run lint:tsc",
+        "lint:tsc": "tsc --noEmit"
+    },
+    "author": {
+        "name": "Jonathan Heneis",
+        "email": "jonathan.heneis@circlelabs.dev"
+    },
+    "dependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^5.2.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.4.2"
+    },
+    "peerDependencies": {
+        "prettier": "^3.2.5"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org"
+    },
+    "files": [
+        "dist",
+        "package.json"
+    ]
 }

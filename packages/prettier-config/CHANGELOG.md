@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2024-12-19)
+
+### Features
+
+- **prettier-config:** bump tab-width to improve readability ([83c1470](https://github.com/circlelabs-dev/circlelabs-config/commit/83c147052c20d1a180c5e8d2b69cbdbdbfa59400))
+
 # 2.0.0 (2024-12-11)
 
 **Note:** Version bump only for package @circlelabs/prettier-config
