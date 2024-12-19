@@ -10,7 +10,7 @@ export default {
   trailingComma: 'all',
   singleQuote: true,
   printWidth: 80,
-  tabWidth: 2,
+  tabWidth: 4,
   importOrder: [
     '<THIRD_PARTY_MODULES>',
     '^#lib/(.*)$',
