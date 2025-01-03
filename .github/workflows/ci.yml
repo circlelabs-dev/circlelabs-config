@@ -15,7 +15,7 @@ jobs:
               run: pnpm run lint
               shell: bash
             - name: Type check packages
-              run: pnpm run typecheck
+              run: ls packages/prettier-config && pnpm run typecheck
               shell: bash
 
     build:
