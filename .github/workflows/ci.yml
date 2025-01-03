@@ -14,6 +14,9 @@ jobs:
             - name: Lint packages
               run: pnpm run lint
               shell: bash
+            - name: Debug packages
+              run: ls packages/prettier-config
+              shell: bash
             - name: Type check packages
               run: ls packages/prettier-config && pnpm run typecheck
               shell: bash
