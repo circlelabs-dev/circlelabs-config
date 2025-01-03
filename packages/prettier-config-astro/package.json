@@ -1,6 +1,6 @@
 {
     "name": "@circlelabs/prettier-config-astro",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "license": "ISC",
     "type": "module",
     "exports": {

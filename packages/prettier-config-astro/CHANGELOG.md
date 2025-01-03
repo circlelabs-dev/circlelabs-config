@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.2 (2025-01-03)
+
+
+### Bug Fixes
+
+* remove .nx cache from version control ([d0fa8f2](https://github.com/circlelabs-dev/circlelabs-config/commit/d0fa8f2d61d77e232b224f003349b6647ee14361))
+
+
+
+
+
 ## 3.0.1 (2025-01-03)
 
 **Note:** Version bump only for package @circlelabs/prettier-config-astro
