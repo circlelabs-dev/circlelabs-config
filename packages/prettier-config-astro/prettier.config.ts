@@ -5,15 +5,15 @@ import type { Config } from 'prettier'
 import * as AstroPlugin from 'prettier-plugin-astro'
 
 const config: Config = {
-  plugins: [AstroPlugin],
-  overrides: [
-    {
-      files: '*.astro',
-      options: {
-        parser: 'astro',
-      },
-    },
-  ],
+    plugins: [AstroPlugin],
+    overrides: [
+        {
+            files: '*.astro',
+            options: {
+                parser: 'astro',
+            },
+        },
+    ],
 }
 
 export default deepmerge(config, baseConfig)

@@ -1,18 +1,18 @@
 name: Publish packages to npmjs.com
 
 on:
-  push:
-    tags:
-      - v*.*.*
+    push:
+        tags:
+            - v*.*.*
 
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/install-dependencies
-      - name: Publish packages from git
-        run: pnpx lerna publish from-git -y
-        shell: bash
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: ./.github/actions/install-dependencies
+            - name: Publish packages from git
+              run: pnpx lerna publish from-git -y
+              shell: bash
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
