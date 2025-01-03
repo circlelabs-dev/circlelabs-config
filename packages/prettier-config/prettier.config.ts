@@ -1,23 +1,11 @@
-import type { PluginConfig } from '@trivago/prettier-plugin-sort-imports'
-import SortImportsPlugin from '@trivago/prettier-plugin-sort-imports'
-import type { Config } from 'prettier'
+import type { Config } from "prettier"
 
-type FinalConfig = Config & PluginConfig
+type FinalConfig = Config
 
 export default {
-    plugins: [SortImportsPlugin],
     semi: false,
-    trailingComma: 'all',
-    singleQuote: true,
+    trailingComma: "all",
+    singleQuote: false,
     printWidth: 80,
     tabWidth: 4,
-    importOrder: [
-        '<THIRD_PARTY_MODULES>',
-        '^#lib/(.*)$',
-        '^#components/(.*)$',
-        '^#/(.*)$',
-        '^[./]',
-    ],
-    importOrderSeparation: true,
-    importOrderSortSpecifiers: true,
 } satisfies FinalConfig

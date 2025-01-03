@@ -4,10 +4,10 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "postinstall": "lerna run build --scope=@circlelabs/prettier-config",
         "build": "lerna run build",
         "lint": "lerna run lint",
-        "format": "prettier . -w",
+        "typecheck": "lerna run typecheck",
+        "format": "biome format --write ./",
         "npm-check-update": "pnpx npm-check-updates --deep"
     },
     "author": {
@@ -15,10 +15,10 @@
         "email": "jonathan.heneis@circlelabs.dev"
     },
     "devDependencies": {
-        "@circlelabs/prettier-config": "workspace:./packages/prettier-config",
+        "@biomejs/biome": "1.9.4",
+        "@circlelabs/biome-config": "workspace:./packages/biome-config",
         "@types/node": "^22.10.5",
         "lerna": "^8.1.9",
-        "prettier": "^3.4.2",
         "tsup": "^8.3.5",
         "typescript": "^5.7.2"
     },
