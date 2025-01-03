@@ -16,4 +16,4 @@ const config: Config = {
     ],
 }
 
-export default deepmerge(config, baseConfig)
+export default deepmerge(baseConfig, config)
