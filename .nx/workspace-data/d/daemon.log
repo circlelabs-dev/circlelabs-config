@@ -122,3 +122,38 @@
 [NX Daemon Server] - 2025-01-03T16:16:44.927Z - Handled GET_FLAKY_TASKS. Handling time: 1. Response time: 0.
 [NX Daemon Server] - 2025-01-03T16:16:45.091Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2025-01-03T16:17:47.936Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-03T16:21:16.304Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-03T16:21:16.304Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-01-03T16:21:16.369Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-03T16:21:16.405Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-03T16:21:16.405Z - [REQUEST]: packages/prettier-config-astro/package.json,packages/prettier-config/package.json
+[NX Daemon Server] - 2025-01-03T16:21:16.405Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-03T16:21:16.406Z - Time taken for 'hash changed files from watcher' 0.11320900003192946ms
+[NX Daemon Server] - 2025-01-03T16:21:16.410Z - Time taken for 'build-project-configs' 3.9520000000484288ms
+[NX Daemon Server] - 2025-01-03T16:21:16.421Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-01-03T16:21:16.421Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-01-03T16:21:16.421Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-01-03T16:21:16.421Z - Time taken for 'total execution time for createProjectGraph()' 9.137499999953434ms
+[NX Daemon Server] - 2025-01-03T16:23:52.455Z - [WATCHER]: packages/prettier-config/package.json was modified
+[NX Daemon Server] - 2025-01-03T16:23:52.455Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-03T16:23:52.655Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-03T16:23:52.656Z - [REQUEST]: packages/prettier-config/package.json
+[NX Daemon Server] - 2025-01-03T16:23:52.656Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-03T16:23:52.658Z - Time taken for 'hash changed files from watcher' 0.19150000001536682ms
+[NX Daemon Server] - 2025-01-03T16:23:52.665Z - Time taken for 'build-project-configs' 7.083332999958657ms
+[NX Daemon Server] - 2025-01-03T16:23:52.676Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-01-03T16:23:52.676Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-01-03T16:23:52.676Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-01-03T16:23:52.676Z - Time taken for 'total execution time for createProjectGraph()' 8.757500000006985ms
+[NX Daemon Server] - 2025-01-03T16:24:05.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-03T16:24:05.983Z - [WATCHER]: packages/prettier-config-astro/package.json was modified
+[NX Daemon Server] - 2025-01-03T16:24:06.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-01-03T16:24:06.382Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-01-03T16:24:06.383Z - [REQUEST]: packages/prettier-config-astro/package.json
+[NX Daemon Server] - 2025-01-03T16:24:06.383Z - [REQUEST]: 
+[NX Daemon Server] - 2025-01-03T16:24:06.384Z - Time taken for 'hash changed files from watcher' 0.05420800001593307ms
+[NX Daemon Server] - 2025-01-03T16:24:06.387Z - Time taken for 'build-project-configs' 3.155665999976918ms
+[NX Daemon Server] - 2025-01-03T16:24:06.392Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-01-03T16:24:06.392Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-01-03T16:24:06.392Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-01-03T16:24:06.393Z - Time taken for 'total execution time for createProjectGraph()' 4.93179100000998ms

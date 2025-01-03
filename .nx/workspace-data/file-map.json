@@ -6,88 +6,88 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/workflows/version.yml",
-        "hash": "16459032970102280757"
-      },
-      {
-        "file": ".idea/prettier.xml",
-        "hash": "9480751356422995443"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "13215473771289321042"
-      },
-      {
-        "file": ".idea/.gitignore",
-        "hash": "7651118417904998994"
-      },
-      {
-        "file": "nx.json",
-        "hash": "2924943147674137044"
-      },
-      {
-        "file": ".idea/codeStyles/codeStyleConfig.xml",
-        "hash": "4690022301721055948"
-      },
-      {
-        "file": ".github/workflows/publish.yml",
-        "hash": "15698010464402399398"
-      },
-      {
-        "file": "biome.json",
-        "hash": "18352410637107583247"
-      },
-      {
-        "file": ".github/actions/install-dependencies/action.yml",
-        "hash": "12025499217742595884"
+        "file": ".idea/circlelabs-tooling.iml",
+        "hash": "12133380989612508735"
       },
       {
         "file": ".idea/biome.xml",
         "hash": "3935828585464809459"
       },
       {
-        "file": ".idea/circlelabs-tooling.iml",
-        "hash": "12133380989612508735"
-      },
-      {
-        "file": ".idea/modules.xml",
-        "hash": "8743892632485123934"
-      },
-      {
-        "file": ".idea/codeStyles/Project.xml",
-        "hash": "8923856908496835867"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "12359119105860629410"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "18047332447354472875"
-      },
-      {
-        "file": "CHANGELOG.md",
-        "hash": "18271760355426962103"
-      },
-      {
         "file": "package.json",
         "hash": "6254354109061310380"
       },
       {
-        "file": "lerna.json",
-        "hash": "3721190135153445779"
+        "file": ".idea/codeStyles/codeStyleConfig.xml",
+        "hash": "4690022301721055948"
       },
       {
-        "file": "pnpm-workspace.yaml",
-        "hash": "7286610674201184814"
+        "file": ".github/actions/install-dependencies/action.yml",
+        "hash": "12025499217742595884"
+      },
+      {
+        "file": ".github/workflows/version.yml",
+        "hash": "16459032970102280757"
+      },
+      {
+        "file": "biome.json",
+        "hash": "18352410637107583247"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2924943147674137044"
       },
       {
         "file": ".nvmrc",
         "hash": "13289320807999307751"
       },
       {
+        "file": ".idea/.gitignore",
+        "hash": "7651118417904998994"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "18271760355426962103"
+      },
+      {
+        "file": ".idea/modules.xml",
+        "hash": "8743892632485123934"
+      },
+      {
         "file": ".idea/vcs.xml",
         "hash": "14721619479974801327"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "3721190135153445779"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18047332447354472875"
+      },
+      {
+        "file": ".idea/prettier.xml",
+        "hash": "9480751356422995443"
+      },
+      {
+        "file": ".idea/codeStyles/Project.xml",
+        "hash": "8923856908496835867"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "13215473771289321042"
+      },
+      {
+        "file": ".github/workflows/publish.yml",
+        "hash": "15698010464402399398"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12359119105860629410"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "7286610674201184814"
       }
     ],
     "projectFileMap": {
@@ -115,7 +115,7 @@
         },
         {
           "file": "packages/prettier-config/package.json",
-          "hash": "5951342948514738146",
+          "hash": "15517289764888264786",
           "deps": [
             "npm:prettier"
           ]
@@ -140,7 +140,7 @@
         },
         {
           "file": "packages/prettier-config-astro/package.json",
-          "hash": "14646121893350645290",
+          "hash": "10004624979949359061",
           "deps": [
             "npm:prettier",
             "@circlelabs/prettier-config",
