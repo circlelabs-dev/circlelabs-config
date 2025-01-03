@@ -1,26 +1,26 @@
 {
-  "name": "circlelabs-config",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "postinstall": "lerna run build --scope=@circlelabs/prettier-config",
-    "build": "lerna run build",
-    "lint": "lerna run lint",
-    "format": "prettier . -w",
-    "npm-check-update": "pnpx npm-check-updates --deep"
-  },
-  "author": {
-    "name": "Jonathan Heneis",
-    "email": "jonathan.heneis@circlelabs.dev"
-  },
-  "devDependencies": {
-    "@circlelabs/prettier-config": "workspace:./packages/prettier-config",
-    "@types/node": "^22.10.2",
-    "lerna": "^8.1.9",
-    "prettier": "^3.4.2",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2"
-  },
-  "packageManager": "pnpm@9.15.0"
+    "name": "circlelabs-config",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "postinstall": "lerna run build --scope=@circlelabs/prettier-config",
+        "build": "lerna run build",
+        "lint": "lerna run lint",
+        "format": "prettier . -w",
+        "npm-check-update": "pnpx npm-check-updates --deep"
+    },
+    "author": {
+        "name": "Jonathan Heneis",
+        "email": "jonathan.heneis@circlelabs.dev"
+    },
+    "devDependencies": {
+        "@circlelabs/prettier-config": "workspace:./packages/prettier-config",
+        "@types/node": "^22.10.5",
+        "lerna": "^8.1.9",
+        "prettier": "^3.4.2",
+        "tsup": "^8.3.5",
+        "typescript": "^5.7.2"
+    },
+    "packageManager": "pnpm@9.15.2"
 }
