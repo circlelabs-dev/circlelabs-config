@@ -1,3 +1,4 @@
 node_modules/
 dist
 .tsup
+.nx/cache

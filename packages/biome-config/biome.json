@@ -31,5 +31,10 @@
             "semicolons": "asNeeded",
             "arrowParentheses": "always"
         }
+    },
+    "json": {
+        "formatter": {
+            "enabled": true
+        }
     }
 }
