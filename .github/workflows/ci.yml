@@ -9,17 +9,17 @@ jobs:
     lint:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: ./.github/actions/install-dependencies
-            - name: Lint packages
-              run: pnpm run lint
-              shell: bash
-            - name: Type check packages
-              run: ls packages/prettier-config && pnpm run typecheck
-              shell: bash
+            -   uses: actions/checkout@v4
+            -   uses: ./.github/actions/install-dependencies
+            -   name: Lint packages
+                run: pnpm run lint
+                shell: bash
+            -   name: Type check packages
+                run: ls packages/prettier-config && pnpm run typecheck
+                shell: bash
 
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: ./.github/actions/install-dependencies
+            -   uses: actions/checkout@v4
+            -   uses: ./.github/actions/install-dependencies

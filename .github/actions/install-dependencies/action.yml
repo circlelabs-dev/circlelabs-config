@@ -5,12 +5,16 @@ description: Install node and pnpm, then run pnpm install
 runs:
     using: composite
     steps:
-        - uses: pnpm/action-setup@v4
-          with:
-              run_install: true
-        - name: Use Node.js
-          uses: actions/setup-node@v4
-          with:
-              cache: pnpm
-              node-version-file: .nvmrc
-              registry-url: https://registry.npmjs.org
+        -   uses: pnpm/action-setup@v4
+            with:
+                run_install: true
+
+        -   name: Use Node.js
+            uses: actions/setup-node@v4
+            with:
+                cache: pnpm
+                node-version-file: .nvmrc
+                registry-url: https://registry.npmjs.org
+
+        -   name: Use nx
+            uses: nrwl/nx-set-shas@v4

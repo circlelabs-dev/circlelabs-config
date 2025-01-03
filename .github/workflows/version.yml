@@ -14,24 +14,24 @@ jobs:
     version:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-              with:
-                  token: ${{ secrets.GH_PAT }}
-            - uses: ./.github/actions/install-dependencies
-            - name: Configure git
-              run: |
-                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                  git config --global user.name "github-actions[bot]"
-              shell: bash
-            - name: Verify @circlelabs/prettier-config build
-              run: ls packages/prettier-config/dist
-              shell: bash
-            - name: Verify @circlelabs/prettier-config-astro build
-              run: ls packages/prettier-config-astro/dist
-              shell: bash
-            - name: Bump version of packages
-              run: pnpx lerna version ${{ inputs.version-bump }} --yes
-              shell: bash
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            -   uses: actions/checkout@v4
+                with:
+                    token: ${{ secrets.GH_PAT }}
+            -   uses: ./.github/actions/install-dependencies
+            -   name: Configure git
+                run: |
+                    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                    git config --global user.name "github-actions[bot]"
+                shell: bash
+            -   name: Verify @circlelabs/prettier-config build
+                run: ls packages/prettier-config/dist
+                shell: bash
+            -   name: Verify @circlelabs/prettier-config-astro build
+                run: ls packages/prettier-config-astro/dist
+                shell: bash
+            -   name: Bump version of packages
+                run: pnpx lerna version ${{ inputs.version-bump }} --yes
+                shell: bash
+                env:
+                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
