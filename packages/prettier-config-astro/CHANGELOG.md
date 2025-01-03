@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2025-01-03)
+
+
+### Bug Fixes
+
+* resolve exports definition order issue ([8585165](https://github.com/circlelabs-dev/circlelabs-config/commit/858516507952476314bc553ee53525bc861f21e8))
+
+
+
+
+
 ## 2.1.1 (2025-01-03)
 
 **Note:** Version bump only for package @circlelabs/prettier-config-astro

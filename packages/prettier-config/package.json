@@ -1,6 +1,6 @@
 {
     "name": "@circlelabs/prettier-config",
-    "version": "2.1.1",
+    "version": "3.0.0",
     "license": "ISC",
     "type": "module",
     "exports": {
@@ -30,5 +30,8 @@
         "access": "public",
         "registry": "https://registry.npmjs.org"
     },
-    "files": ["dist", "package.json"]
+    "files": [
+        "dist",
+        "package.json"
+    ]
 }
