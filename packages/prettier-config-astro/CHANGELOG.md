@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.3 (2025-01-05)
+
+
+### Bug Fixes
+
+* make biome and prettier configs compatible ([7659877](https://github.com/circlelabs-dev/circlelabs-config/commit/76598773d925c42621a33e4f26da853c70f72a2c))
+
+
+
+
+
 ## 3.0.2 (2025-01-03)
 
 
