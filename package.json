@@ -8,7 +8,10 @@
         "build": "lerna run build",
         "lint": "lerna run lint",
         "typecheck": "lerna run typecheck",
-        "format": "biome format --write ./",
+        "format": "pnpm run format:code && pnpm run format:imports",
+        "format:code": "biome format ./ --write",
+        "format-unsafe:code": "biome format ./ --write --unsafe",
+        "format:imports": "biome check --formatter-enabled=false --linter-enabled=false --write",
         "npm-check-update": "pnpx npm-check-updates --deep"
     },
     "author": {
