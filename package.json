@@ -1,6 +1,6 @@
 {
     "name": "circlelabs-config",
-    "version": "0.1.0",
+    "version": "0.0.0-monorepo",
     "private": true,
     "type": "module",
     "scripts": {
