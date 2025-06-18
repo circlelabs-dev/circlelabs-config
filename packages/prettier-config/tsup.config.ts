@@ -1,4 +1,4 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsup"
 
 export default defineConfig({
     entry: ["prettier.config.ts"],
@@ -8,4 +8,4 @@ export default defineConfig({
     clean: true,
     cjsInterop: true,
     dts: true,
-});
+})

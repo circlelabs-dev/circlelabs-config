@@ -1,6 +1,6 @@
-import type { Config } from "prettier";
+import type { Config } from "prettier"
 
-type FinalConfig = Config;
+type FinalConfig = Config
 
 export default {
     semi: false,
@@ -8,4 +8,4 @@ export default {
     singleQuote: false,
     printWidth: 80,
     tabWidth: 4,
-} satisfies FinalConfig;
+} satisfies FinalConfig

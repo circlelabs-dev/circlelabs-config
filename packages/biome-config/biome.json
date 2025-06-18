@@ -18,7 +18,7 @@
     "javascript": {
         "formatter": {
             "trailingCommas": "all",
-            "semicolons": "always",
+            "semicolons": "asNeeded",
             "arrowParentheses": "always"
         }
     },

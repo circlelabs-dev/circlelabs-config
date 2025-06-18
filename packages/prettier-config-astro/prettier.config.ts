@@ -1,8 +1,8 @@
-import baseConfig from "@circlelabs/prettier-config";
-import deepmerge from "deepmerge";
-import type { Config } from "prettier";
+import baseConfig from "@circlelabs/prettier-config"
+import deepmerge from "deepmerge"
+import type { Config } from "prettier"
 // @ts-expect-error astro plugin is not typed yet
-import * as AstroPlugin from "prettier-plugin-astro";
+import * as AstroPlugin from "prettier-plugin-astro"
 
 const config: Config = {
     plugins: [AstroPlugin],
@@ -14,6 +14,6 @@ const config: Config = {
             },
         },
     ],
-};
+}
 
-export default deepmerge(baseConfig, config);
+export default deepmerge(baseConfig, config)
