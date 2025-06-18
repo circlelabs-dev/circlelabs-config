@@ -1,17 +1,16 @@
 {
+    "root": false,
     "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
     "formatter": {
         "indentStyle": "space",
         "indentWidth": 4,
         "lineWidth": 80,
-        "formatWithErrors": true,
-        "ignore": []
+        "formatWithErrors": true
     },
-    "organizeImports": {
-        "enabled": true
+    "assist": {
+        "actions": { "source": { "organizeImports": "on" } }
     },
     "linter": {
-        "enabled": true,
         "rules": {
             "recommended": true
         }
@@ -36,15 +35,5 @@
         "clientKind": "git",
         "enabled": true,
         "useIgnoreFile": true
-    },
-    "overrides": [
-        {
-            "include": ["package.json"],
-            "json": {
-                "formatter": {
-                    "lineWidth": 1
-                }
-            }
-        }
-    ]
+    }
 }
