@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.1 (2025-06-18)
+
+
+### Features
+
+* **biome-config:** remove unnecessary semi colons ([d47c0f6](https://github.com/circlelabs-dev/circlelabs-config/commit/d47c0f6c099feb6746408d84e7a063a1be0ecf9f))
+
+
+
+
+
 # 4.0.0 (2025-06-18)
 
 **Note:** Version bump only for package @circlelabs/prettier-config
