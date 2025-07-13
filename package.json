@@ -20,13 +20,13 @@
         "email": "jonathan.heneis@circlelabs.dev"
     },
     "devDependencies": {
-        "@biomejs/biome": "2.0.0",
+        "@biomejs/biome": "2.1.1",
         "@circlelabs/biome-config": "workspace:./packages/biome-config",
-        "@types/node": "^24.0.3",
+        "@types/node": "^24.0.13",
         "husky": "^9.1.7",
-        "lerna": "^8.2.2",
+        "lerna": "^8.2.3",
         "tsup": "^8.5.0",
         "typescript": "^5.8.3"
     },
-    "packageManager": "pnpm@10.12.1"
+    "packageManager": "pnpm@10.13.1"
 }
